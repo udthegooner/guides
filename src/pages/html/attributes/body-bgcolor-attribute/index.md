@@ -3,13 +3,23 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To add a background color to your html page, we use the `<body bgcolor>` attribute. It specifies a background color for an HTML document. The color can be expressed using either the color name or its hex number or its rbg number.
 
 
+Syntax: 
+
+`<body bgcolor="color">`
+
+
+Attribute:
+
+`bgcolor - background color in color_name/hex_number/rbg_number`
+
+
+Example:
+```html
+<html>
+  <body bgcolor="rgb(25,76,184)">
+  </body>
+</html>
+```
